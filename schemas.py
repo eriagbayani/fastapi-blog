@@ -32,4 +32,4 @@ class PostResponse(PostBase):
     id: int
     user_id: int
     date_posted: datetime
-    authr: UserResponse
+    author: UserResponse
